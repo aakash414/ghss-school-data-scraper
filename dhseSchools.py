@@ -27,8 +27,6 @@ district_options = [opt for opt in district_select.options if opt.get_attribute(
 # Loop through all districts
 for district in district_options:
     district_value = district.get_attribute("value")
-    district_name = district.text.strip()
-    print(f"\n🔍 Processing District: {district_name}")
 
     # Set district using JS and trigger change
     driver.execute_script("""
@@ -38,7 +36,19 @@ for district in district_options:
         select.dispatchEvent(event);
     """, district_value)
 
-    time.sleep(2)  # Wait for schools to load
+    time.sleep(2)
+
+    # ✅ Get visible district name from chosen.js
+    try:
+        district_name = driver.execute_script("""
+            const el = document.querySelector('#district_selection');
+            return el.options[el.selectedIndex]?.text?.trim();
+        """)
+    except:
+        print("❌ Could not read district name — skipping")
+        continue
+
+    print(f"\n🔍 Processing District: {district_name}")
 
     try:
         wait.until(EC.presence_of_element_located((By.ID, "district_institution")))
@@ -53,8 +63,6 @@ for district in district_options:
     # Loop through schools in the district
     for school in school_options:
         school_value = school.get_attribute("value")
-        school_name = school.text.strip()
-        print(f"  🏫 School: {school_name}")
 
         # Set school using JS and trigger change
         driver.execute_script("""
@@ -64,8 +72,22 @@ for district in district_options:
             select.dispatchEvent(event);
         """, school_value)
 
-        time.sleep(2)  # Wait for table data to load
+        time.sleep(2)
 
+        # ✅ Get visible school name from chosen.js
+        try:
+            school_name = driver.execute_script("""
+    const el = document.querySelector('#district_institution');
+    return el.options[el.selectedIndex]?.text?.trim();
+""")
+
+        except:
+            print("    ❌ Could not read school name — skipping")
+            continue
+
+        print(f"  🏫 School: {school_name}")
+
+        # Scrape table data
         try:
             table_rows = driver.find_elements(By.CSS_SELECTOR, "table tbody tr")
             for row in table_rows:
@@ -88,6 +110,7 @@ for district in district_options:
 
     # Save CSV for this district
     if district_data:
+        # 🧼 Clean district name for file name
         safe_name = "".join(c for c in district_name if c.isalnum() or c in (' ', '_')).strip().replace(" ", "_")
         filename = os.path.join(output_dir, f"{safe_name}.csv")
         pd.DataFrame(district_data).to_csv(filename, index=False)
