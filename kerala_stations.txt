@@ -1,0 +1,178 @@
+01 	TCR 	Thrissur 	Trichur
+02 	CLT 	Kozhikode Main 	Calicut
+03 	ERS 	Ernakulam Junction 	Ernakulam
+04 	TVC 	Trivandrum Central 	Trivandrum
+05 	AWY 	Aluva 	Aluva
+06 	QLN 	Kollam Junction 	Kollam
+07 	PGT 	Palakkad Junction 	Palghat
+08 	KYJ 	Kayamkulam Junction 	Kayamkulam
+09 	SRR 	Shoranur Junction 	Shoranur
+10 	CAN 	Kannur Main 	Cannanore
+11 	ERN 	Ernakulam Town 	Ernakulam
+12 	KTYM 	Kottayam 	Kottayam
+13 	TIR 	Tirur 	Tirur
+14 	CNGR 	Chengannur 	Chengannur
+15 	TLY 	Thalassery 	Tellicherry
+16 	BDJ 	Vadakara 	Badagara
+17 	ALLP 	Alappuzha 	Alappuzha
+18 	TVCN 	Thiruvananthapuram North 	Trivandrum
+19 	KGQ 	Kasaragod 	Kasaragod
+20 	TRVL 	Tiruvalla 	Tiruvalla
+21 	PAY 	Payyanur 	Payyanur
+22 	KZE 	Kanhangad 	Kanhangad
+23 	OTP 	Ottappalam 	Ottappalam
+24 	VAK 	Varkala Sivagiri 	Varkala Sivagiri Station
+25 	AFK 	Angamaly 	Angamaly
+26 	CGY 	Changanassery 	Changanacherry
+27 	KTU 	Kuttippuram 	Kuttippuram
+28 	QLD 	Koyilandy 	Koyilandy
+29 	GUV 	Guruvayur 	Guruvayur
+30 	MVLK 	Mavelikara 	Mavelikara
+31 	CKI 	Chalakudi 	Chalakudi
+32 	KPY 	Karunagapalli 	Karunagappally
+33 	IJK 	Irinjalakuda 	Irinjalakuda
+34 	PGI 	Parpanangadi 	Parpanangadi
+35 	SRTL 	Cherthala 	Shertalai
+36 	WKI 	Wadakanchery 	Wadakanchery
+37 	FK 	Ferok 	Feroke
+38 	PVU 	Paravur 	Paravur
+39 	PTB 	Pattambi 	Pattambi
+40 	NLE 	Nileshwar 	Nileshwar
+41 	AMPA 	Ambalappuzha 	Ambalappuzha
+42 	HAD 	Haripad 	Haripad
+43 	TRTR 	Tripunittura 	Tripunittura
+44 	KPQ 	Kannapuram 	Kannapuram
+45 	STKT 	Sasthamkotta 	Sasthamkotta
+46 	TA 	Tanur 	Tanur
+47 	CHV 	Charvattur 	Charvattur
+48 	PAZ 	Payangadi 	Payangadi
+49 	PVRD 	Piravam Road 	Piravam Road
+50 	NYY 	Neyyattinkara 	Neyyattinkara
+51 	CRY 	Chirayinkil 	Chirayinkil
+52 	KZK 	Kazhakuttam 	Kazhakkottam
+53 	PASA 	Parassala 	Parassala
+54 	KMQ 	Kumbala 	Kumbla (Kumble)
+55 	PGTN 	Palakkad Town 	Palakkad
+56 	VNB 	Vaniyambalam 	Vaniyambalam
+57 	AAM 	Angadippuram 	Angadippuram
+58 	NIL 	Nilambur Road 	Nilambur Road
+59 	TVP 	Thiruvananthapuram Pettah 	Trivandrum
+60 	KVU 	Kadakavur 	Kadakkavoor
+61 	TUVR 	Turavur 	Turavur
+62 	IPL 	Idappally 	Idaplli
+63 	MJS 	Manjeshwar 	Manjeshwar
+64 	KUV 	Kundara 	Kundara
+65 	MAKM 	Mararikulam 	Mararikulam
+66 	VLI 	Vallikunnu 	Vallikunnu
+67 	AVS 	Auvaneswarem 	Auvaneswarem
+68 	KQK 	Kotikulam 	Kotikulam
+69 	KKZ 	Kottarakara 	Kottarakara
+70 	MYY 	Mayyanad 	Mayyanad
+71 	PUK 	Pudukad 	Pudukad
+72 	PUU 	Punalur 	Punalur
+73 	PNQ 	Punkunnam 	Punkunnam
+74 	VARD 	Vaikam Road 	Vaikam Road
+75 	MNTT 	Mulanturutti 	Mulanturutti
+76 	VAPM 	Valapattanam 	Valapattanam
+77 	ETM 	Ettumanur 	Ettumanur
+78 	TKQ 	Trikarpur 	Trikarpur
+79 	CYN 	Cheriyanad 	Cheriyanad
+80 	PYOL 	Payyoli 	Payyoli
+81 	KLQ 	Kilikollur 	Kilikollur
+82 	BFR 	Bekal Fort 	Bekal Fort
+83 	KRPP 	Kuruppanthara 	Kuruppanthara
+84 	EDN 	Edamann 	
+85 	KLGD 	Kollengode 	
+86 	PRND 	Perinad 	Perinad
+87 	AYVN 	Aryankavu New Block 	
+88 	TUA 	Tirunnavaya 	Tirunnavaya
+89 	EKN 	Ezhukone 	Ezhukone
+90 	UAA 	Uppala 	Uppala
+91 	ELM 	Ezhimala 	Elimala
+92 	MQU 	Murukkampuzha 	Murukkumpuzha
+93 	OCR 	Ochira 	Ochira
+94 	KN 	Kadalundi 	Kadalundi
+95 	CHPD 	Cheppad Halt 	Cheppad
+96 	LDY 	Lakkiti 	Lakkiti
+97 	MGK 	Mulangunnathukavu 	Mulangunnathukavu
+98 	TVCS 	Thiruvananthapuram South 	Trivandrum
+99 	PPNS 	Pappinissery 	Pappinissery
+100 	BRAM 	Balaramapuram 	Balaramapuram
+101 	PDGM 	Pudunagaram 	
+102 	MMDA 	Muthalamada 	
+103 	OKL 	Ottakkal 	
+104 	ETR 	Elattur 	Elattur
+105 	KUC 	Karukkutty 	Karukkutty
+106 	KUL 	Kallayi 	Kallayi Kozhikode South
+107 	VTK 	Vallathol Nagar 	Vallathol Nagar
+108 	KUMM 	Kumbalam 	Kumbalam
+109 	WH 	West Hill 	West Hill
+110 	WRA 	Walayar 	Walayar
+111 	KJKD 	Kanjikode 	Kanjikode
+112 	CS 	Kannur South 	Cannanore South
+113 	PUM 	Pallippuram 	Pallippuram
+114 	JGE 	Jagannath Temple Gate 	Jagannath Temple Gate
+115 	TKT 	Tikkotti 	Tikkotti
+116 	PLL 	Parli 	Parli
+117 	KLMR 	Kalamassery 	Kalamassery
+118 	OLR 	Ollur 	Thrissur Ollur
+119 	KXP 	Kaniyapuram 	Kaniyapuram
+120 	ETK 	Edakkad 	Etakkot
+121 	EVA 	Edavai 	Edavai
+122 	MNY 	Mankarai 	Mankarai
+123 	MNUR 	Mannanur 	Mannanur
+124 	KRKD 	Karakkad 	Karakkad
+125 	CGV 	Chingavanam 	Chingavanam
+126 	DINR 	Divinenagar 	Divinenagar
+127 	MQO 	Munroturuttu 	Munroturuttu
+128 	TUV 	Tuvvur 	Tuvvur
+129 	VPZ 	Vallapuzha 	Vallapuzha
+130 	PKQ 	Pattikkad 	Pattikkad
+131 	CQA 	Cherukara 	Cherukara
+132 	AYV 	Arayankavu 	Aryankavu
+133 	MLTR 	Melattur 	Melattur
+134 	DAVM 	Dhanuvachapuram 	Dhanuvachapuram
+135 	PNPR 	Punnapra 	Punnapra
+136 	TZH 	Takazhi 	Takazhi
+137 	NAU 	Nadapuram Road 	Nadapuram Road
+138 	VEK 	Vellarakkad 	Vellarakkad
+139 	AMVA 	Amaravila Halt 	Amaravila
+140 	VDKS 	Vadanam Kurussi Halt 	Vadanam Kurussi
+141 	AMY 	Akathumuri 	Akathumuri
+142 	KDTY 	Kaduturutti Halt 	Kaduturutti
+143 	CTPE 	Chandanattop Halt 	Chandanattop
+144 	VLL 	Vellayil 	Vellayil
+145 	CLMD 	Chullimada 	Chullimada
+146 	KFE 	Kurikad 	Kurikad
+147 	EDP 	Edapalayam Halt 	
+148 	KFQ 	Kumaranallur 	Kumaranallur
+149 	IRP 	Iravipuram 	Kollam
+150 	AROR 	Aroor Halt 	Aroor
+151 	EZP 	Ezhuppunna 	Ezhuppunna
+152 	CQL 	Chirakkal 	Chirakkal
+153 	IGL 	Iringal 	Iringal
+154 	KFI 	Kappil 	Kappil
+155 	PLPM 	Palappuram 	Palappuram
+156 	KZC 	Kulukkalur 	Kulukkalur
+157 	CWR 	Chovvara 	Chovvara
+158 	KVTA 	Karuvatta Halt 	Karuvatta
+159 	VELI 	Veli 	Veli
+160 	NYI 	Nellayi 	Nellayi
+161 	KLAD 	Kalanad Halt 	Kalanad
+162 	TMPY 	Tumboli 	Tumboli
+163 	KPTM 	Kanjiramattom 	Kanjiramattom
+164 	CMC 	Chemancheri 	Chemancheri
+165 	TRVZ 	Tiruvizha 	Tiruvizha
+166 	PGZ 	Perunguzhi 	Perunguzhi
+167 	KODN 	Kodumunda 	Kodumunda
+168 	DMD 	Dharmadam 	Dharmadam
+169 	KFV 	Kundara East 	Kundara East
+170 	KTHY 	Kazhuthuruthy 	
+171 	PEU 	Perssannur 	Perssannur
+172 	MUC 	Mullurkara 	Mullurkara
+173 	MUKE 	Mukkali 	Mukkali
+174 	KIF 	Kuri 	Kuri
+175 	KAVR 	Kalavoor Halt 	Kalavur
+176 	KRAN 	Koratti Angadi 	Koratti Angadi
+177 	CDRA 	Chandera 	Chandera
+178 	VAY 	Vayalar 	Vayalar 
